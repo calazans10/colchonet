@@ -2,6 +2,9 @@ pt-BR:
   confirmations:
     success: 'Email confirmado com sucesso, obrigado!'
 
+  dialogs:
+    destroy: 'Você tem certeza que quer remover?'
+
   flash:
     alert:
       needs_login: "Você precisa estar logado para continuar"
@@ -28,11 +31,15 @@ pt-BR:
 
   rooms:
     index:
-      title_page: Listagem de Quartos
-      new: Novo Quarto
-      title: Título
-      location: Localização
-      description: Descrição
+      title: Quartos Disponíveis
+    room:
+      owner_html: "&mdash; %{owner} (%{when})"
+      edit: Editar
+      destroy: Remover
+      # new: Novo Quarto
+      # title: Título
+      # location: Localização
+      # description: Descrição
     show:
       title: "Quarto: %{room_title}"
       location: "Localização: %{location}"
