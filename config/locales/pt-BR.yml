@@ -2,6 +2,9 @@ pt-BR:
   confirmations:
     success: 'Email confirmado com sucesso, obrigado!'
 
+  general:
+    form_error: 'Há errors no formulário, por favor verifique.'
+
   dialogs:
     destroy: 'Você tem certeza que quer remover?'
 
@@ -14,6 +17,20 @@ pt-BR:
       already_logged_in: "Você já está logado."
       room_created: 'Quarto criado com sucesso!'
       room_updated: 'Quarto atualizado com sucesso!'
+
+  links:
+    back: Voltar
+    show: Mostrar
+    edit: Editar
+
+  layout:
+    rooms: Quartos
+    signup: Cadastro
+    new_room: Cadastre seu quarto!
+    signup: Cadastro
+    signin: Login
+    my_profile: Meu perfil
+    signout: Logout
 
   users:
     new:
@@ -38,6 +55,12 @@ pt-BR:
       owner_html: "&mdash; %{owner} (%{when})"
       edit: Editar
       destroy: Remover
+    review_form:
+      login_to_review: Faça o login para avaliar os quartos
+    review:
+      stats:
+        one: '(1 avaliação)'
+        other: '(%{count} avaliações)'
     show:
       title: "Quarto: %{room_title}"
       location: "Localização: %{location}"
@@ -59,27 +82,11 @@ pt-BR:
       confirm_link_html: 'Para você começar a usar o site, acesse o link: %{link}'
       thanks_html: 'Obrigado por se cadastrar no %{link}.'
 
-  links:
-    back: Voltar
-    show: Mostrar
-    edit: Editar
-
-  layout:
-    rooms: Quartos
-    signup: Cadastro
-    new_room: Cadastre seu quarto!
-    signup: Cadastro
-    signin: Login
-    my_profile: Meu perfil
-    signout: Logout
-
-  general:
-    form_error: 'Há errors no formulário, por favor verifique.'
-
   activerecord:
     models:
       user: Usuário
       room: Quarto
+      review: Avaliação
     attributes:
       user:
         bio: Biografia

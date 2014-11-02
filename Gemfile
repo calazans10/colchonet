@@ -11,17 +11,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'bourbon'
-gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'spring', group: :development
-gem 'pry-rails', :group => :development
-gem 'awesome_print', :group => :development
+gem "font-awesome-rails"
 
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
-
+group :development do
+  gem 'spring'
+  gem 'pry-rails'
+  gem 'awesome_print'
+end
