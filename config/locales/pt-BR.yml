@@ -1,4 +1,12 @@
 pt-BR:
+  views:
+    pagination:
+      first: "&laquo; Primeira"
+      last: "Última &raquo;"
+      previous: "&lsaquo; Anterior"
+      next: "Próxima &rsaquo;"
+      truncate: "..."
+
   confirmations:
     success: 'Email confirmado com sucesso, obrigado!'
 
@@ -51,6 +59,9 @@ pt-BR:
   rooms:
     index:
       title: Quartos Disponíveis
+      search_results: Resultados da busca
+    search:
+      search_for: 'Buscar por...'
     room:
       owner_html: "&mdash; %{owner} (%{when})"
       edit: Editar

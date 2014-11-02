@@ -12,6 +12,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'bourbon'
 gem "font-awesome-rails"
+gem 'friendly_id'
+gem 'kaminari'
 
 group :development do
   gem 'spring'
