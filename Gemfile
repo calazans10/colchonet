@@ -14,6 +14,8 @@ gem 'bourbon'
 gem "font-awesome-rails"
 gem 'friendly_id'
 gem 'kaminari'
+gem 'carrierwave'
+gem 'rmagick'
 
 group :development do
   gem 'spring'
